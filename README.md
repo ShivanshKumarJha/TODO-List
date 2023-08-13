@@ -32,4 +32,4 @@ This project is unlicensed.
 
 ## Contact
 
-For any questions or feedback, please reach out to [kumarjhashivansh@gmail.com] or [https://www.linkedin.com/in/shivansh-kumar-jha-4b3141234/)https://www.linkedin.com/in/shivansh-kumar-jha-4b3141234/].
+For any questions or feedback, please reach out to [kumarjhashivansh@gmail.com] or [https://www.linkedin.com/in/shivansh-kumar-jha-4b3141234/].
