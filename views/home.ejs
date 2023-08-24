@@ -35,24 +35,30 @@
           <tbody>
             <tr>
               <td>
-                <input
-                  type="text"
-                  name="description"
-                  placeholder="What do you need to do?"
-                  required
-                />
+                <label>
+                  <input
+                    type="text"
+                    name="description"
+                    placeholder="What do you need to do?"
+                    required
+                  />
+                </label>
               </td>
               <td>
-                <select name="category" required>
-                  <option>PERSONAL</option>
-                  <option>WORK</option>
-                  <option>SCHOOL</option>
-                  <option>CLEANING</option>
-                  <option>OTHER</option>
-                </select>
+                <label>
+                  <select name="category" required>
+                    <option>PERSONAL</option>
+                    <option>WORK</option>
+                    <option>SCHOOL</option>
+                    <option>CLEANING</option>
+                    <option>OTHER</option>
+                  </select>
+                </label>
               </td>
               <td>
-                <input type="date" name="date" required />
+                <label>
+                  <input type="date" name="date" required />
+                </label>
               </td>
               <td>
                 <input
@@ -82,7 +88,9 @@
           <% for(let i of task) { %>
           <tr>
             <td>
-              <input type="checkbox" name="<%= i._id %>" />
+              <label>
+                <input type="checkbox" name="<%= i._id %>" />
+              </label>
             </td>
             <td>
               <p id="task-description"><%= i.description %></p>
