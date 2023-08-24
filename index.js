@@ -60,13 +60,13 @@ app.post('/create-task', function (request, response) {
 // Deleting tasks
 app.get('/delete-task', function (request, response) {
     // get the id from the query
-    var id = request.query;
+    const id = request.query;
 
     // checking the number of tasks to be deleted
-    var count = Object.keys(id).length;
+    const count = Object.keys(id).length;
 
     // Creating an array of promises for deletion
-    var deletionPromises = [];
+    const deletionPromises = [];
     for (let i = 0; i < count; i++) {
         // Push each deletion promise into the array
         deletionPromises.push(Task.findByIdAndDelete(Object.keys(id)[i]));
