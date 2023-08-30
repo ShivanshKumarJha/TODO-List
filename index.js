@@ -32,6 +32,7 @@ app.get('/', function (request, response) {
             return response.render('home', {
                 title: 'Home',
                 task: task
+
             });
         })
         .catch(err => {
@@ -83,10 +84,12 @@ app.get('/delete-task', function (request, response) {
         });
 });
 
+const PORT = process.env.PORT || 800
+
 // make the app to listen on assigned port number
-app.listen(port, function (err) {
+app.listen(PORT, function (err) {
     if (err) {
         console.log(`Error in running the server : ${err}`);
     }
-    console.log(`Server is running on port : ${port}`);
+    console.log(`Server is running on port : ${PORT}`);
 });
