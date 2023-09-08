@@ -4,3 +4,4 @@ jsLibraryMappings.xml/
 modules.xml/
 prettier.xml/
 vcs.xml/
+.env/
