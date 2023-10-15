@@ -12,7 +12,7 @@ This is a basic to-do list app built using HTML, CSS, JavaScript , Express and M
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/yourusername/basic-todo-list.git`
-2. Open the project folder: `cd basic-todo-list`
+2. Open the project folder: `cd TODO-List`
 3. Open the terminal and type `npm start`.
 4. Go to the browser and search `localhost:800`
 
