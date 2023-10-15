@@ -12,12 +12,13 @@ This is a basic to-do list app built using HTML, CSS, JavaScript , Express and M
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/yourusername/basic-todo-list.git`
-2. Open the project folder: `cd basic-todo-list`
-3. Open `index.html` in your preferred web browser.
+2. Open the project folder: `cd TODO-List`
+3. Open the terminal and type `npm start`.
+4. Go to the browser and search `localhost:800`
 
 ## Usage
 
-1. Launch the app by opening `index.html` in your web browser.
+1. Launch the app by opening `localhost:800` in your web browser.
 2. Enter a task in the input field and click "Add Task" to add it to the list.
 3. Check the checkbox next to a task to mark it as completed.
 4. Click the "Delete Task" button to remove selected tasks.
