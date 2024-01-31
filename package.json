@@ -12,9 +12,9 @@
   "name": "todo-list",
   "version": "1.0.0",
   "description": "This is basic TODO List",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
