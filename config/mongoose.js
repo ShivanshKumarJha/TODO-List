@@ -1,8 +1,9 @@
 // require the library 
 const mongoose = require('mongoose');
+const env = require('dotenv').config();
 
 // connect to the database
-mongoose.connect('mongodb://localhost/todos');
+mongoose.connect(process.env.MONGODB_URI);
 
 // acquire the connection
 const db = mongoose.connection;

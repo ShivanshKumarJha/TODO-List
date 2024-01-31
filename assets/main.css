@@ -1,0 +1,154 @@
+/* Include your existing styles */
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Tilt+Neon&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #94d2bd;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.container {
+  width: 45%;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-heading {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #2a9d8f;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+select,
+input[type="date"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.2rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Add styles for your buttons */
+.btn-success {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-danger {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+/* Add hover and focus styles to form elements */
+input[type="text"]:hover,
+select:hover,
+input[type="date"]:hover,
+input[type="text"]:focus,
+select:focus,
+input[type="date"]:focus {
+  border-color: #2a9d8f;
+}
+
+/* Add hover effect to buttons */
+.btn-success:hover,
+.btn-danger:hover {
+  background-color: #247f73; /* Darker color on hover */
+}
+
+/* Add animation to your headings */
+.container-heading {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Add transition to table row background color on hover */
+.todo__category:hover {
+  background-color: #f2f2f2;
+  transition: background-color 0.3s;
+}
+
+/* Add some hover effects to checkboxes */
+input[type="checkbox"]:hover {
+  transform: scale(1.8);
+  transition: transform 0.3s;
+}
+
+/* Add animation for tasks when they appear */
+.todo__category {
+  animation: slideIn 1s;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+input[type="date"],
+input[type="checkbox"],
+select {
+  cursor: pointer;
+}
